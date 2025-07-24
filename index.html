@@ -33,15 +33,18 @@
  <div class="tab-scroll-wrapper">
     <ul class="nav nav-underline" id="menuTabs" role="tablist">
       <li class="nav-item " role="presentation">
-        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#cold" type="button" role="tab">Iced Coffee | <span class="arabic-text">قهوة باردة</span></button>
+        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v60" type="button" role="tab">V60 | <span class="arabic-text">قهوة مقطرة</span></button>
       </li>
       <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#hot" type="button" role="tab">Hot Coffee | <span class="arabic-text">قهوة ساخنة</span></button>
+        <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#cold" type="button" role="tab">Cold Coffee | <span class="arabic-text">قهوة باردة</span></button>
       </li>
       <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="sweets-tab" data-bs-toggle="tab" data-bs-target="#sweets" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
+        <button class="nav-link me-0" style="color: white;" id="sweets-tab" data-bs-toggle="tab" data-bs-target="#hot" type="button" role="tab">Hot coffee | <span class="arabic-text">قهوة ساخنة</span></button>
       </li>      
 	  <li class="nav-item " role="presentation">
+        <button class="nav-link me-0" style="color: white;" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#sweets" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
+      </li>
+	   <li class="nav-item " role="presentation">
         <button class="nav-link me-0" style="color: white;" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab">Cold Drinks | <span class="arabic-text">مشروبات باردة</span></button>
       </li>
     </ul>
@@ -53,7 +56,7 @@
     <!-- Tabs Content -->
     <div class="tab-content pt-3" id="menuTabsContent">
       <!-- Cold Drinks Tab -->
-      <div class="tab-pane fade show active" id="cold" role="tabpanel">
+      <div class="tab-pane fade show active" id="v60" role="tabpanel">
 
 		
 	<!-- cardds -->
@@ -64,11 +67,11 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/hot.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> Espresso | <span lang="ar" class="arabic-text">إسبرسو</span></h6>
+		  <h6 class="fw-bold brown-text"> Yemeni Natural | <span lang="ar" class="arabic-text">يمني طبيعي</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>17.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -77,17 +80,63 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/cold.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> latte | <span lang="ar" class="arabic-text">لاتيه</span></h6>
+		  <h6 class="fw-bold brown-text"> Iced Yemeni Natural | <span lang="ar" class="arabic-text">يمني طبيعي بارد</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>17.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>		
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/hot.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Ethiopian Hambela | <span lang="ar" class="arabic-text">اثيوبي همبيلا</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>16.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
 	</div>
 
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/cold.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Iced Ethiopian Hambela | <span lang="ar" class="arabic-text">اثيوبي همبيلا بارد</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>16.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
 	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/hot.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Colombian Huila | <span lang="ar" class="arabic-text">كولومبي ويلا</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>16.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/cold.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Iced Colombian Huila | <span lang="ar" class="arabic-text">كولومبي ويلا بارد</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>16.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+		</div>
 
 	</div>
 
@@ -99,19 +148,19 @@
 
 	  
 
-      <!-- Hot Drinks Tab -->
-      <div class="tab-pane fade" id="hot" role="tabpanel">
+      <!-- Cold coffee Tab -->
+      <div class="tab-pane fade" id="cold" role="tabpanel">
         <div class="row">
 	
 
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> Espresso | <span lang="ar" class="arabic-text">إسبرسو</span></h6>
+		  <h6 class="fw-bold brown-text"> Iced Americano | <span lang="ar" class="arabic-text">اميركانو بارد</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>11.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -120,11 +169,11 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> latte | <span lang="ar" class="arabic-text">لاتيه</span></h6>
+		  <h6 class="fw-bold brown-text"> Iced spanish | <span lang="ar" class="arabic-text">ايس سبانش</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>11.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -135,19 +184,19 @@
 	</div>
       </div>
 
-      <!-- Sweets Tab -->
-      <div class="tab-pane fade" id="sweets" role="tabpanel">
+      <!-- hot coffee Tab -->
+      <div class="tab-pane fade" id="hot" role="tabpanel">
 		<div class="row">
 	
 
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/esspresso.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
 		  <h6 class="fw-bold brown-text"> Espresso | <span lang="ar" class="arabic-text">إسبرسو</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>11.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -156,11 +205,72 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/esspresso.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Lungo | <span lang="ar" class="arabic-text">لونجو</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>11.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/alfredo.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Alfredo Espresso | <span lang="ar" class="arabic-text">إسبرسو الفريدو</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/flat.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Cortado | <span lang="ar" class="arabic-text">كورتادو</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/cortado.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Flat White | <span lang="ar" class="arabic-text">فلات وايت</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/cortado.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Cuppuccino | <span lang="ar" class="arabic-text">كابوتشينو</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>15.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+		<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/latte.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
 		  <h6 class="fw-bold brown-text"> latte | <span lang="ar" class="arabic-text">لاتيه</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>15.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -175,7 +285,79 @@
 	
 	
 	
+	<!-- sweets Tab -->
+	<div class="tab-pane fade" id="sweets" role="tabpanel">
+		<div class="row">
+	
+
+	
+		<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/Dolce.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Dolce | <span lang="ar" class="arabic-text">دولتشي</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>22.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	
+		<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/Kunafa.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Kunafa Cake | <span lang="ar" class="arabic-text">كنافة كيك</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>20.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/Date.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Date & Pecan Cake | <span lang="ar" class="arabic-text">تمر بيكان</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>22.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/Toffee.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Toffee Heaven | <span lang="ar" class="arabic-text">توفي هيفن</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>18.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	
+	
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/Coconut.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Coconut Mango | <span lang="ar" class="arabic-text">كوكونت مانجو</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>18.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+	</div>
+
+	</div>
+	
+	
     </div>
+	
 	
 	<!-- drinks Tab -->
 	<div class="tab-pane fade" id="drinks" role="tabpanel">
@@ -185,11 +367,11 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> Espresso | <span lang="ar" class="arabic-text">إسبرسو</span></h6>
+		  <h6 class="fw-bold brown-text"> Peach Ice Tea | <span lang="ar" class="arabic-text">ايس تي خوخ</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
@@ -198,24 +380,48 @@
 	
 		<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
-		<img src="img/try.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
 		<div class="flex-grow-1 d-flex flex-column justify-content-between">
-		  <h6 class="fw-bold brown-text"> latte | <span lang="ar" class="arabic-text">لاتيه</span></h6>
+		  <h6 class="fw-bold brown-text"> Blue Palm | <span lang="ar" class="arabic-text">بلو بالم</span></h6>
 		  <div class="position-absolute bottom-0 end-0 p-2">
-			<small class="price-label brown-text fw-bold pe-2"><span>4.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Hibiscus | <span lang="ar" class="arabic-text">كركديه</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>14.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 		  </div>
 		</div>
 	  </div>
 	</div>
 
-	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Water | <span lang="ar" class="arabic-text">ماء</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>1.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
 	</div>
 	
 	
     </div>
 	
+	<!-- drinks Tab End -->
 	
+	</div>
 	  
     </div>
   </div>
@@ -226,3 +432,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
