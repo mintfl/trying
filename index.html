@@ -32,8 +32,11 @@
  
  <div class="tab-scroll-wrapper">
     <ul class="nav nav-underline" id="menuTabs" role="tablist">
+	<li class="nav-item " role="presentation">
+        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#today" type="button" role="tab">Today's Coffee | <span class="arabic-text">قهوة اليوم</span></button>
+      </li>
       <li class="nav-item " role="presentation">
-        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v60" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
+        <button class="nav-link me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v60" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
       </li>
       <li class="nav-item " role="presentation">
         <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#cold" type="button" role="tab">Cold drinks | <span class="arabic-text">مشروبات باردة</span></button>
@@ -58,8 +61,51 @@
 
     <!-- Tabs Content -->
     <div class="tab-content pt-3" id="menuTabsContent">
+	
+	
+	<!-- today coffee tab -->
+	<div class="tab-pane fade show active" id="today" role="tabpanel">
+
+		
+	<!-- cardds -->
+		
+	<div class="row">
+	
+
+	
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/hot.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Today's Coffee | <span lang="ar" class="arabic-text">قهوة اليوم</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>10.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/cold.jpg" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Today's Iced Coffee | <span lang="ar" class="arabic-text">قهوة اليوم بارد</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>12.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+	</div>
+
+
+
+	</div>
+
+
+	</div>
+
       <!-- Cold Drinks Tab -->
-      <div class="tab-pane fade show active" id="v60" role="tabpanel">
+      <div class="tab-pane fade" id="v60" role="tabpanel">
 
 		
 	<!-- cardds -->
@@ -87,6 +133,18 @@
 			  <h6 class="fw-bold brown-text"> Toffee Heaven | <span lang="ar" class="arabic-text">توفي هيفن</span></h6>
 			  <div class="position-absolute bottom-0 end-0 p-2">
 				<small class="price-label brown-text fw-bold pe-2"><span>18.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+		  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+			<img src="img/null.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+			<div class="flex-grow-1 d-flex flex-column justify-content-between">
+			  <h6 class="fw-bold brown-text"> Fruit Tart | <span lang="ar" class="arabic-text">تارت فواكة</span></h6>
+			  <div class="position-absolute bottom-0 end-0 p-2">
+				<small class="price-label brown-text fw-bold pe-2"><span>24.00</span><span lang="ar" class="arabic-text">ريال</span></small>
 			  </div>
 			</div>
 		  </div>
@@ -542,6 +600,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
 
 
