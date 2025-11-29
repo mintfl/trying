@@ -33,16 +33,16 @@
  <div class="tab-scroll-wrapper">
     <ul class="nav nav-underline" id="menuTabs" role="tablist">
 	<li class="nav-item " role="presentation">
-        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#today" type="button" role="tab">Today's Coffee | <span class="arabic-text">قهوة اليوم</span></button>
+        <button class="nav-link active me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v60" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
       </li>
       <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v60" type="button" role="tab">Sweets | <span class="arabic-text">حلويات</span></button>
+        <button class="nav-link me-0" style="color: white;" id="cold-tab" data-bs-toggle="tab" data-bs-target="#v6" type="button" role="tab">V60 | <span class="arabic-text">قهوة مقطرة</span></button>
       </li>
 	  <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="bread-tab" data-bs-toggle="tab" data-bs-target="#bread" type="button" role="tab">Pastry | <span class="arabic-text">مخبوزات</span></button>
+        <button class="nav-link me-0" style="color: white;" id="bread-tab" data-bs-toggle="tab" data-bs-target="#hotdrink" type="button" role="tab">Hot Drinks | <span class="arabic-text">مشروبات ساخنة</span></button>
       </li>
       <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#cold" type="button" role="tab">Cold drinks | <span class="arabic-text">مشروبات باردة</span></button>
+        <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#today" type="button" role="tab">Today's Coffee | <span class="arabic-text">قهوة اليوم</span></button>
       </li>
       <li class="nav-item " role="presentation">
         <button class="nav-link me-0" style="color: white;" id="sweets-tab" data-bs-toggle="tab" data-bs-target="#hot" type="button" role="tab">Espresso | <span class="arabic-text">إسبرسو</span></button>
@@ -54,7 +54,10 @@
         <button class="nav-link me-0" style="color: white;" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab">Sweet Coffee | <span class="arabic-text">قهوة محلاه</span></button>
       </li>
 	  <li class="nav-item " role="presentation">
-        <button class="nav-link me-0" style="color: white;" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#v6" type="button" role="tab">V60 | <span class="arabic-text">قهوة مقطرة</span></button>
+        <button class="nav-link me-0" style="color: white;" id="hot-tab" data-bs-toggle="tab" data-bs-target="#cold" type="button" role="tab">Cold drinks | <span class="arabic-text">مشروبات باردة</span></button>
+      </li>
+	  <li class="nav-item " role="presentation">
+        <button class="nav-link me-0" style="color: white;" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#bread" type="button" role="tab">Pastry | <span class="arabic-text">مخبوزات</span></button>
       </li>
     </ul>
 	
@@ -67,7 +70,7 @@
 	
 	
 	<!-- today coffee tab -->
-	<div class="tab-pane fade show active" id="today" role="tabpanel">
+	<div class="tab-pane fade" id="today" role="tabpanel">
 
 		
 	<!-- cardds -->
@@ -107,14 +110,61 @@
 
 	</div>
 
-      <!-- Cold Drinks Tab -->
-      <div class="tab-pane fade" id="v60" role="tabpanel">
+      <!-- Sweets Tab -->
+      <div class="tab-pane fade show active" id="v60" role="tabpanel">
 
 		
 	<!-- cardds -->
 		
 	<div class="row">
-
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/toast.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> French Toast Mix | <span lang="ar" class="arabic-text">فرنش توست مكس</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>19.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/toast.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> French Toast Kinder | <span lang="ar" class="arabic-text">فرنش توست كندر</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>19.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/toast.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> French Toast Chocolate | <span lang="ar" class="arabic-text">فرنش توست تشوكلت</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>19.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/gshd.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Palm Date Cheesecake | <span lang="ar" class="arabic-text">تشيز قشد بالم</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>16.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
 	<div class="col-md-6 mb-4">
 	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
@@ -274,7 +324,7 @@
 
 	  
 
-      <!-- Classic coffee Tab -->
+      <!-- cold drinks Tab -->
       <div class="tab-pane fade" id="cold" role="tabpanel">
         <div class="row">
 	
@@ -347,7 +397,7 @@
 	</div>
       </div>
 
-      <!-- hot coffee Tab -->
+      <!-- esspresso Tab -->
       <div class="tab-pane fade" id="hot" role="tabpanel">
 		<div class="row">
 	
@@ -400,7 +450,7 @@
 	
 	
 	
-	<!-- sweets Tab -->
+	<!-- classic coffee Tab -->
 	<div class="tab-pane fade" id="sweets" role="tabpanel">
 		<div class="row">
 	
@@ -489,7 +539,7 @@
     </div>
 	
 	
-	<!-- drinks Tab -->
+	<!-- cold drinks Tab -->
 	<div class="tab-pane fade" id="drinks" role="tabpanel">
 		<div class="row">
 	
@@ -561,7 +611,27 @@
 	
     </div>
 	
-	<!-- drinks Tab End -->
+	<!-- hot drinks tab -->
+	<div class="tab-pane fade" id="hotdrink" role="tabpanel">
+		<div class="row">
+	
+
+
+	<div class="col-md-6 mb-4">
+	  <div class="d-flex p-3 rounded shadow-sm position-relative" style="background-color: #f8f8f8;">
+		<img src="img/hotcoca.png" alt="Iced Mocha" class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
+		<div class="flex-grow-1 d-flex flex-column justify-content-between">
+		  <h6 class="fw-bold brown-text"> Hot chocolate | <span lang="ar" class="arabic-text">هوت تشوكلت</span></h6>
+		  <div class="position-absolute bottom-0 end-0 p-2">
+			<small class="price-label brown-text fw-bold pe-2"><span>19.00</span><span lang="ar" class="arabic-text">ريال</span></small>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	
+    </div>
+	</div>
 	
 	<!-- v6 Tab -->
       <div class="tab-pane fade" id="v6" role="tabpanel">
@@ -662,6 +732,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+
 
 
 
